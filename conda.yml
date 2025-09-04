@@ -3,15 +3,12 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.7
-  - pip
-  - scikit-learn
+  - python=3.10
   - pandas
   - numpy
+  - nltk
+  - scikit-learn
+  - pip
   - pip:
-      - mlflow
-      - argparse
       - langdetect
-      - nltk
-build:
-  script: ./post_build.sh
+      - mlflow

@@ -1,0 +1,4 @@
+name: custom-env
+description: Environment with sklearn, pandas, nltk, etc.
+image: mcr.microsoft.com/azureml/openmpi5.0-ubuntu24.04
+conda_file: conda.yml

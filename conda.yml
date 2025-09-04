@@ -8,3 +8,5 @@ dependencies:
   - langdetect
   - pip:
       - azure-ai-ml
+build:
+  script: ./post_build.sh

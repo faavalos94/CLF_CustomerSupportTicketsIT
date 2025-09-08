@@ -12,4 +12,5 @@ dependencies:
   - pip:
       - langdetect
       - mlflow==2.8.1
+      - mlflow-skinny==2.8.1
       - azureml-mlflow

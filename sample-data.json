@@ -1,0 +1,14 @@
+{
+  "input_data": {
+    "columns": [
+      "text",
+      "len_words"
+    ],
+    "index": [1],
+    "data": [
+      [
+      "Dear Customer Support Team,\n\nI hope this message reaches you well. I am writing to highlight a security compliance concern encountered on my Windows 10 Pro device. Recently, I observed that the device is not meeting certain compliance standards, raising concerns about potential security vulnerabilities affecting the overall security integrity of the system.\n\nSpecifically, the issue seems related to the system's compliance with updated security policies and configuration settings necessary to maintain adherence to industry benchmarks. Despite following the usual procedures, the problem persists.", 605
+    ]
+    ]
+  }
+}

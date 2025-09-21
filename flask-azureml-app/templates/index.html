@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Azure ML Prediction</title>
+</head>
+<body>
+    <h1>Real-Time Prediction App</h1>
+
+    <form method="POST">
+        <label for="text">Enter Text:</label><br>
+        <input type="text" name="text" id="text" placeholder="Type your IT issue here" required />
+        <br><br>
+
+        <label for="len_words">Word Count:</label><br>
+        <input type="number" name="len_words" id="len_words" placeholder="e.g., 5" required />
+        <br><br>
+
+        <button type="submit">Get Prediction</button>
+    </form>
+
+    {% if prediction %}
+        <h2>Prediction Result:</h2>
+        <pre> {{ prediction | tojson(indent=2) }}</pre>
+    {% endif %}
+</body>
+</html>

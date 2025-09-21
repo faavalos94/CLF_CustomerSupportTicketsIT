@@ -35,6 +35,8 @@ The dataset used is the Tobi-Bueck/customer-support-tickets from Hugging Face, w
 
 - Azure Subscription
 - Visual Studio Code
+  - I recommend creating a **.env** file to hold Azure ML endpoint and API key variables
+  - In VS Code, run command `python app.py` to grab link and test with sample data
 
 ---
 

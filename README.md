@@ -1,6 +1,6 @@
 # End-to-End ML Pipeline: IT Customer Support Ticket Classification with Logistic Regression
 
-**This repository has been modeled after Microsoft Learn's Hands On Exercises, so please follow the link in the Resources section below for detailed steps on initial set up**
+**This repository has been modeled after Microsoft Learn's Hands On Exercises, so please follow the link in the Resources section below for detailed steps on initial set up.**
 
 This project demonstrates how to build and deploy a machine learning pipeline in **Azure Machine Learning (Azure ML)**. It walks through a complete MLOps workflow: data prep, model training, model registration, deployment, and endpoint testing.
 
